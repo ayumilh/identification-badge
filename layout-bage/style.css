@@ -1,0 +1,78 @@
+:root{
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin: 0%;
+}
+body{
+  display: grid;
+  place-items: center;
+}
+main{
+  background-color: var(--body-bg-color);
+  width: 414px;
+  height: 896px;
+}
+.container{
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.avatar{
+  width: 12.5rem;
+  margin: 7.5rem auto 0;
+} 
+
+.avatar > img{
+  width: 12.5rem;
+  height: 12.5rem;
+
+  object-fit: cover;
+  clip-path: circle(50% at 50% 50%);
+}
+h1{
+  font-size: 1.5rem;
+  margin-top: 1.3rem;
+  color: var(--purple);
+}
+ul{
+  margin-top: 4.2rem;
+  padding: 0;
+  gap: 1.8rem;
+
+  justify-content: center;
+
+  list-style: none;
+  display: flex;
+}
+section{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 1.4rem;
+}
+p.desc{
+  display: inline;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+div#line{
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  height: 0;
+  background-color: #A070D0;
+  border: 1.5px solid #A070D0;
+  border-radius: 8px;
+  max-width: 20rem;
+  margin-top: 1.3rem;
+}
+p#userBio{
+  margin-top: 1.3rem;
+
+}
