@@ -1,0 +1,5 @@
+-- form.html linha 25
+  <input type="submit" name="send" value="Send" class="finish"> 
+  >> Fazer com que ao mandar o form para o php ele ja direcionar para a pagina do Student Card
+
+-- Como usar variaveis do PhP no Html

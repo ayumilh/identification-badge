@@ -1,0 +1,33 @@
+laragon: mysql -u root -h localhost
+
+create database PersonCard;
+
+use PersonCard;
+
+create table Person(
+  Rm int(5) primary key,
+  Name varchar(40) not null unique,
+  Password varchar(100) not null unique,
+  Email varchar(100) not null unique,
+  Git varchar(40) unique,
+  Upload varchar(100)
+);
+desc Person;
+
+create table Student(
+  Upload varchar(100),
+  NameStudent varchar(100),
+  RmStudent int(5),
+  Email varchar(100) not null,
+  Bio varchar(200),
+  SocialNet varchar(300)
+);
+
+create table Teacher(
+  Upload varchar(100),
+  NameTeacher varchar(100),
+  RmTeacher int(5),
+  Email varchar(100) not null,
+  Bio varchar(200),
+  SocialNet varchar(300)
+);
