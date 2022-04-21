@@ -7,15 +7,7 @@
   <title>Sign-Up</title>
 </head>
 <body>
-  <form action="sign_up.php" method="post">
-    <p>
-      <label for="rm">Rm: </label>
-      <input type="text" name="rm">
-    </p>
-    <p>
-      <label for="user">Name: </label>
-      <input type="text" name="name">
-    </p>
+  <form action="php/sign_in.php" method="post" enctype="multipart/form-data">
     <p>
       <label for="email">Email: </label>
       <input type="email" name="email">
@@ -26,6 +18,8 @@
     </p>
     <p>
       <input type="submit" value="Send" name="send">
+      <input type="reset" value="Clear"><br>
+      <p>Don't have an account? <a href="sign_up.html">Sign-up</a></p>
     </p>
   </form>
 </body>

@@ -1,7 +1,7 @@
 <?php
   
   $hostname = "localhost";
-  $database = "personcard";
+  $database = "identBadge";
   $user = "root";
   $password = "";
 

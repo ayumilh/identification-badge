@@ -1,6 +1,6 @@
 // Coloque suas redes sociais aqui
 const linksSocialMedia = {
-  github: "ayumilh",
+  github: "",
   twitter: "",
   instagram: "",
   linkedin: ""

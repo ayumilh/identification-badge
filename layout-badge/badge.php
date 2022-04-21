@@ -1,3 +1,6 @@
+<?php
+  $name = "Lara Ayumi";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,17 +21,17 @@
         <img id="userImage" src="http://lorempixel.com.br/200/200" alt="Foto pessoal">
       </div>
       
-      <h1 id="userName">Lara Ayumi</h1>
+      <h1 id="userName"><?php echo $name; ?></h1>
       
       <section>
         <p class="desc"> 
           <img src="img/pin.png" alt="icone de localização"> 
-          <label for="" id="userLocation">São Paulo</label>
+          <label for="" id="userLocation"></label>
         </p>
         
         <p class="desc"> 
-          <img src="img/rm.png" alt="icone do rm"> 
-          <label for="" id="userRm">21214</label> 
+          <img src="img/id.png" alt="icone do id"> 
+          <label for="" id="userRm">00000</label> 
         </p>
       </section>
 
@@ -62,11 +65,11 @@
           </a>
         </li>
 
-        </ul>
+      </ul>
         
     </div>
   </main>
 
-  <script src="script.js"></script>
+  <!-- <script src="script.js"></script> -->
 </body>
 </html>

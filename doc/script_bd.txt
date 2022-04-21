@@ -1,0 +1,18 @@
+laragon: mysql -u root -h localhost
+
+create database identBadge;
+
+use identBadge;
+
+create table register(
+  Id int primary key auto_increment,
+  Name varchar(40) not null unique,
+  Github varchar(40) unique,
+  Email varchar(100) not null unique,
+  Password varchar(100) not null unique,
+  Upload varchar(100)
+);
+
+desc register
+
+[ex: mysql> insert into register values(null, 'Ayumi', 'ayumilh', '12345', 'teste@gmail.com', 'bchwuvgwtycyw');]
